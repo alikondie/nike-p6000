@@ -1,4 +1,4 @@
-import React, { DetailedHTMLProps, useRef } from 'react';
+import React, { useRef } from 'react';
 import './App.scss';
 import Nike from './assets/nikep6000.png';
 function App() {
@@ -8,6 +8,7 @@ function App() {
   const buy = useRef<HTMLButtonElement>(null);
   const details = useRef<HTMLHeadingElement>(null);
   const sizes = useRef<HTMLDivElement>(null);
+
   const moveContainer = (e: React.MouseEvent) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 20;
     let yAxis = (window.innerHeight / 2 - e.pageY) / 20;
