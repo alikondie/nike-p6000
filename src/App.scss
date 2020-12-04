@@ -49,25 +49,29 @@ body {
         z-index: 1;
       }
       img {
-        width: 20rem;
+        width: 25rem;
         z-index: 2;
+        transition: all 0.75s ease-out;
       }
     }
 
     .info {
       h1 {
         font-size: 3rem;
+        transition: all 0.75s ease-out;
       }
       h3 {
         font-size: 1.3;
         padding: 2rem 0rem;
         color: #585858;
         font-weight: lighter;
+        transition: all 0.75s ease-out;
       }
 
       .sizes {
         display: flex;
         justify-content: space-between;
+        transition: all 0.75s ease-out;
 
         button {
           padding: 0.5rem 2rem;
@@ -88,6 +92,7 @@ body {
       .buy {
         margin-top: 5rem;
         button {
+          transition: all 0.75s ease-out;
           width: 100%;
           padding: 1rem 0rem;
           background-color: rgba(241, 170, 122, 0.75);
